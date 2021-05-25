@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <world name="World_world_0">
+        <include>
+            <uri>model://sun</uri>
+        </include>
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+        <model name="ign_door">
+          <include>
+                <static>false</static>
+                <uri>model://hinged_door_ticket</uri>
+                <pose> 5 5 0 0 0 0</pose>
+          </include>
+        </model>
+    </world>
+</sdf>
